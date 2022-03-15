@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do-application</title>
+    <link rel="stylesheets" href="style.css">
 </head>
 <body>
-    ?
+    <div class="wrapper">
+        <header>To-Do List</header>
+        <div class="inputField">
+            <input type="text" placeholder="Add your new to-do list">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="to_do_list">
+        </ul>
+        <div class="footer">
+            <span> You have <span class="pendingTasks"> </span> pending tasks </span>
+            <button>Clear All</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
